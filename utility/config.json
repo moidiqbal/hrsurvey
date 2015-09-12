@@ -1,0 +1,15 @@
+  {
+
+    "server":{
+          "protocol":"http",
+          "host":"localhsot",
+          "port":"3030"
+      },
+    "mysql":{
+      "user":"root",
+      "password":"",
+      "host":"localhost",
+      "database":"{{dbname}}" // need to change
+    }
+
+  }
