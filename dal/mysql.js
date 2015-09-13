@@ -3,16 +3,15 @@
  */
 
 var mysql = require("mysql");
-var conf = require("./../utility/config.json");
 
 /**
  * Creating Pool for MySql
  */
 var pool = mysql.createPool({
-    host: conf.mysql.host,
-    user: conf.mysql.user,
-    password: conf.mysql.password,
-    database:conf.mysql.database
+    "user":"root",
+    "password":"",
+    "host":"localhost",
+    "database":"hrsurvey"
 });
 
 exports.MySql = function(){
@@ -42,17 +41,20 @@ exports.MySql = function(){
                     }
                 }
             });
-            $this.CRUD._read = function (callback,table,fields,where) {
-                var query = "SELECT ";
+            $this.CRUD._read = function (callback,query) {
+            /*    var query = "SELECT ";
                 for(var field in fields){
                     query += fields[field];
                 }
                 query += " from "+table;
                 // set where if where
                 if(where || where.length >0){
-                    query += " WHERE "
-                }
-                $this.connection.query(query,function(err,roles){
+                    query += " WHERE ";
+                    for(var wh in where){
+                        query += Object.keys(where[wh])+" = '"+ where[wh]
+                    }
+                }*/
+                $this.connection.query(query,function(err,data){
                        if(err){
                            callback({
                                status:false,
@@ -64,7 +66,7 @@ exports.MySql = function(){
                            callback({
                                status:true,
                                err: [],
-                               data:roles,
+                               data:data,
                                query:query
                            });
                        }
@@ -72,7 +74,23 @@ exports.MySql = function(){
                 return $this.CRUD;
             };
             $this.CRUD._add = function (callback,options) {
-
+                $this.connection.query(query,function(err,data){
+                    if(err){
+                        callback({
+                            status:false,
+                            err: err,
+                            data:[],
+                            query: query
+                        });
+                    }else{
+                        callback({
+                            status:true,
+                            err: [],
+                            data:data,
+                            query:query
+                        });
+                    }
+                });
                 return $this.CRUD;
             };
             $this.CRUD._delete = function (callback,options) {
@@ -80,7 +98,7 @@ exports.MySql = function(){
                 return $this;
             };
             return $this.CRUD;
-        },
+        }
     }
 }
 

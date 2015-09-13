@@ -9,7 +9,7 @@
       "user":"root",
       "password":"",
       "host":"localhost",
-      "database":"{{dbname}}" // need to change
+      "database":"" // need to change
     }
 
   }

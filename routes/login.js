@@ -4,8 +4,8 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  //res.send('respond with a resource');
-  res.render('login');
+  res.send('respond with a resource');
+  //res.render('login');
 });
 
 // Authenticate using our plain-object database of doom!
@@ -54,12 +54,20 @@ router.get('/logout', function(req, res){
 });
 
 router.get('/login', function(req, res){
+    console.log("req");
   res.render('login');
 });
 
 router.post('/login', function(req, res){
-  console.log(req.body.username);
-  authenticate(req.body.username, req.body.password, function(err, user){
+    var data = req.body;
+    console.log(global);
+    console.log(data);
+    query = "SELECT * from user where Username ='"+data.Username+"' AND Password ='"+data.Password+"'";
+    global.CRUD._read(function(result){
+        console.log(result);
+        res.send(result);
+    },query);
+  /*authenticate(req.body.username, req.body.password, function(err, user){
     if (user) {
       // Regenerate session when signing in
       // to prevent fixation
@@ -79,7 +87,7 @@ router.post('/login', function(req, res){
           + ' (use "tj" and "foobar")';
       res.redirect('login');
     }
-  });
+  });*/
 });
 
 module.exports = router;

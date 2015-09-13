@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b7d771b-4a80-414a-a106-7dbe72def759" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utility/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dal/mysql.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+    <list default="true" id="3b7d771b-4a80-414a-a106-7dbe72def759" name="Default" comment="Add Mysql Helper and config file&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/libs/backbone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/libs/jquery-2.1.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/libs/underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/config.json" afterPath="$PROJECT_DIR$/utility/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/dal.js" afterPath="$PROJECT_DIR$/dal/dal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hbs/node_modules/.bin/handlebars.cmd" afterPath="$PROJECT_DIR$/node_modules/hbs/node_modules/.bin/handlebars.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hbs/node_modules/.bin/handlebars" afterPath="$PROJECT_DIR$/node_modules/hbs/node_modules/.bin/handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/login.js" afterPath="$PROJECT_DIR$/routes/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/.bin/mime.cmd" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/.bin/mime.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/.bin/mime" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/.bin/mime" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/mysql.js" afterPath="$PROJECT_DIR$/dal/mysql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hbs/node_modules/handlebars/node_modules/.bin/uglifyjs.cmd" afterPath="$PROJECT_DIR$/node_modules/hbs/node_modules/handlebars/node_modules/.bin/uglifyjs.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hbs/node_modules/handlebars/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/hbs/node_modules/handlebars/node_modules/.bin/uglifyjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/users.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/bin/www" />
     </list>
     <ignored path="hrsurvey.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,48 +39,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dal/dal.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="33" />
+            <state vertical-scroll-proportion="-4.3703704">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="15" />
               <folding>
-                <element signature="e#0#46#0" expanded="false" />
-                <element signature="e#186#356#0" expanded="false" />
-                <element signature="e#823#937#0" expanded="false" />
-                <element signature="e#880#927#0" expanded="false" />
-                <element signature="e#986#1098#0" expanded="false" />
+                <element signature="e#1300#1465#0" expanded="false" />
+                <element signature="e#1566#1672#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3830986">
+              <caret line="10" column="191" selection-start-line="10" selection-start-column="191" selection-end-line="10" selection-end-column="191" />
+              <folding>
+                <element signature="e#132#174#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.4074073">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <folding>
+                <element signature="e#194#252#0" expanded="false" />
+                <element signature="e#332#362#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="68" column="13" selection-start-line="64" selection-start-column="0" selection-end-line="68" selection-end-column="13" />
+              <folding>
+                <element signature="e#99#123#0" expanded="false" />
+                <element signature="e#165#232#0" expanded="false" />
+                <element signature="n#!!block;n#authenticate#0" expanded="false" />
+                <element signature="e#443#910#0" expanded="false" />
+                <element signature="e#555#615#0" expanded="false" />
+                <element signature="e#753#903#0" expanded="false" />
+                <element signature="n#!!block;n#restrict#0" expanded="false" />
+                <element signature="e#975#992#0" expanded="false" />
+                <element signature="e#998#1073#0" expanded="false" />
+                <element signature="e#1077#1123#0" expanded="false" />
+                <element signature="e#1179#1259#0" expanded="false" />
+                <element signature="e#1303#1454#0" expanded="false" />
+                <element signature="e#1307#1352#0" expanded="false" />
+                <element signature="e#1422#1450#0" expanded="false" />
+                <element signature="e#1497#1547#0" expanded="false" />
+                <element signature="e#1808#1870#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dal/dal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="e#180#350#0" expanded="false" />
+                <element signature="n#!!block;n#UserAuthentication#0" expanded="false" />
+                <element signature="e#817#931#0" expanded="false" />
+                <element signature="e#874#921#0" expanded="false" />
+                <element signature="e#980#1092#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dal/mysql.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42931938">
-              <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
-                <element signature="e#122#156#0" expanded="false" />
-                <element signature="e#185#310#0" expanded="false" />
-                <element signature="e#386#2663#0" expanded="false" />
-                <element signature="e#593#1302#0" expanded="false" />
-                <element signature="e#657#1288#0" expanded="false" />
-                <element signature="e#688#900#0" expanded="false" />
-                <element signature="e#723#876#0" expanded="false" />
-                <element signature="e#926#1270#0" expanded="false" />
-                <element signature="e#1016#1246#0" expanded="false" />
-                <element signature="e#1375#2401#0" expanded="false" />
-                <element signature="e#1456#1519#0" expanded="false" />
-                <element signature="e#1643#1701#0" expanded="false" />
-                <element signature="e#1766#2350#0" expanded="false" />
-                <element signature="e#1798#2063#0" expanded="false" />
-                <element signature="e#1836#2036#0" expanded="false" />
-                <element signature="e#2067#2332#0" expanded="false" />
-                <element signature="e#2105#2305#0" expanded="false" />
-                <element signature="e#2461#2512#0" expanded="false" />
-                <element signature="e#2575#2621#0" expanded="false" />
+                <element signature="e#74#108#0" expanded="false" />
+                <element signature="e#137#228#0" expanded="false" />
+                <element signature="e#511#1220#0" expanded="false" />
+                <element signature="e#575#1206#0" expanded="false" />
+                <element signature="e#606#818#0" expanded="false" />
+                <element signature="e#641#794#0" expanded="false" />
+                <element signature="e#844#1188#0" expanded="false" />
+                <element signature="e#934#1164#0" expanded="false" />
+                <element signature="e#1813#2396#0" expanded="false" />
+                <element signature="e#2572#3110#0" expanded="false" />
+                <element signature="e#2884#3068#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -83,6 +153,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -91,13 +162,16 @@
         <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/utility/pass.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/login.hbs" />
-        <option value="$PROJECT_DIR$/dal/dal.js" />
-        <option value="$PROJECT_DIR$/routes/login.js" />
-        <option value="$PROJECT_DIR$/utility/config.json" />
         <option value="$PROJECT_DIR$/utility/mysql.js" />
+        <option value="$PROJECT_DIR$/npm-debug.log" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/dal/dal.js" />
+        <option value="$PROJECT_DIR$/utility/config.json" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/routes/login.js" />
         <option value="$PROJECT_DIR$/dal/mysql.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
       </list>
     </option>
   </component>
@@ -165,7 +239,77 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dal" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -182,6 +326,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\development\hrsurvey\public\js\libs" />
       <recent name="E:\development\hrsurvey\utility" />
       <recent name="C:\Users\Moid Iqbal\WebstormProjects\hrsurvey\routes" />
       <recent name="C:\Users\Moid Iqbal\WebstormProjects\hrsurvey\views" />
@@ -255,49 +400,49 @@
       <option name="number" value="Default" />
       <updated>1441999991406</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Mysql Helper and config file&#10;">
+      <created>1442089919667</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1442089919667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25223213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.317817" sideWeight="0.50595236" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34189406" sideWeight="0.49737436" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25223213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.317817" sideWeight="0.50595236" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34083602" sideWeight="0.49737436" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.317817" sideWeight="0.4940476" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31672025" sideWeight="0.4940476" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Mysql Helper and config file&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Mysql Helper and config file&#10;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/login.js</url>
-          <line>59</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/login.js</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -336,9 +481,22 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#99#123#0" expanded="false" />
+            <element signature="e#165#232#0" expanded="false" />
             <element signature="n#!!block;n#authenticate#0" expanded="false" />
+            <element signature="e#443#910#0" expanded="false" />
+            <element signature="e#555#615#0" expanded="false" />
+            <element signature="e#753#903#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0" expanded="false" />
+            <element signature="e#975#992#0" expanded="false" />
+            <element signature="e#998#1073#0" expanded="false" />
             <element signature="e#1077#1123#0" expanded="false" />
+            <element signature="e#1179#1259#0" expanded="false" />
+            <element signature="e#1303#1454#0" expanded="false" />
+            <element signature="e#1307#1352#0" expanded="false" />
+            <element signature="e#1422#1450#0" expanded="false" />
+            <element signature="e#1497#1547#0" expanded="false" />
+            <element signature="e#1808#1870#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -363,6 +521,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -370,14 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.046195652">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -390,60 +541,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7405542">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#161#219#0" expanded="false" />
-            <element signature="e#299#329#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3207547">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="n#!!block;n#server#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3929471">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!block;n#authenticate#0" expanded="false" />
-            <element signature="n#!!block;n#restrict#0" expanded="false" />
-            <element signature="e#1077#1123#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -465,45 +567,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/libs/jquery-2.1.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16573034">
+          <caret line="5" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33246073">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5252809">
+          <caret line="11" column="37" selection-start-line="8" selection-start-column="6" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dal/dal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="33" />
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="e#0#46#0" expanded="false" />
-            <element signature="e#186#356#0" expanded="false" />
-            <element signature="e#823#937#0" expanded="false" />
-            <element signature="e#880#927#0" expanded="false" />
-            <element signature="e#986#1098#0" expanded="false" />
+            <element signature="e#180#350#0" expanded="false" />
+            <element signature="n#!!block;n#UserAuthentication#0" expanded="false" />
+            <element signature="e#817#931#0" expanded="false" />
+            <element signature="e#874#921#0" expanded="false" />
+            <element signature="e#980#1092#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4074073">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="e#194#252#0" expanded="false" />
+            <element signature="e#332#362#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3703704">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="15" />
+          <folding>
+            <element signature="e#1300#1465#0" expanded="false" />
+            <element signature="e#1566#1672#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="13" selection-start-line="64" selection-start-column="0" selection-end-line="68" selection-end-column="13" />
+          <folding>
+            <element signature="e#99#123#0" expanded="false" />
+            <element signature="e#165#232#0" expanded="false" />
+            <element signature="n#!!block;n#authenticate#0" expanded="false" />
+            <element signature="e#443#910#0" expanded="false" />
+            <element signature="e#555#615#0" expanded="false" />
+            <element signature="e#753#903#0" expanded="false" />
+            <element signature="n#!!block;n#restrict#0" expanded="false" />
+            <element signature="e#975#992#0" expanded="false" />
+            <element signature="e#998#1073#0" expanded="false" />
+            <element signature="e#1077#1123#0" expanded="false" />
+            <element signature="e#1179#1259#0" expanded="false" />
+            <element signature="e#1303#1454#0" expanded="false" />
+            <element signature="e#1307#1352#0" expanded="false" />
+            <element signature="e#1422#1450#0" expanded="false" />
+            <element signature="e#1497#1547#0" expanded="false" />
+            <element signature="e#1808#1870#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dal/mysql.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42931938">
-          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#122#156#0" expanded="false" />
-            <element signature="e#185#310#0" expanded="false" />
-            <element signature="e#386#2663#0" expanded="false" />
-            <element signature="e#593#1302#0" expanded="false" />
-            <element signature="e#657#1288#0" expanded="false" />
-            <element signature="e#688#900#0" expanded="false" />
-            <element signature="e#723#876#0" expanded="false" />
-            <element signature="e#926#1270#0" expanded="false" />
-            <element signature="e#1016#1246#0" expanded="false" />
-            <element signature="e#1375#2401#0" expanded="false" />
-            <element signature="e#1456#1519#0" expanded="false" />
-            <element signature="e#1643#1701#0" expanded="false" />
-            <element signature="e#1766#2350#0" expanded="false" />
-            <element signature="e#1798#2063#0" expanded="false" />
-            <element signature="e#1836#2036#0" expanded="false" />
-            <element signature="e#2067#2332#0" expanded="false" />
-            <element signature="e#2105#2305#0" expanded="false" />
-            <element signature="e#2461#2512#0" expanded="false" />
-            <element signature="e#2575#2621#0" expanded="false" />
+            <element signature="e#74#108#0" expanded="false" />
+            <element signature="e#137#228#0" expanded="false" />
+            <element signature="e#511#1220#0" expanded="false" />
+            <element signature="e#575#1206#0" expanded="false" />
+            <element signature="e#606#818#0" expanded="false" />
+            <element signature="e#641#794#0" expanded="false" />
+            <element signature="e#844#1188#0" expanded="false" />
+            <element signature="e#934#1164#0" expanded="false" />
+            <element signature="e#1813#2396#0" expanded="false" />
+            <element signature="e#2572#3110#0" expanded="false" />
+            <element signature="e#2884#3068#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3830986">
+          <caret line="10" column="191" selection-start-line="10" selection-start-column="191" selection-end-line="10" selection-end-column="191" />
+          <folding>
+            <element signature="e#132#174#0" expanded="false" />
           </folding>
         </state>
       </provider>
